@@ -11,6 +11,26 @@
         height: 500px;
         background: crimson;
         margin: 50px auto;
+
+        /*Metodo 1 FlexBox*/
+        /*
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        */
+
+        /*Método 2 Grid*/
+
+        /*
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        */
+
+        /*Método 3 Grid*/
+        display: grid;
+        place-items: center;
       }
 
       .container div {
@@ -20,5 +40,9 @@
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div></div>
+    </div>
+  </body>
 </html>
